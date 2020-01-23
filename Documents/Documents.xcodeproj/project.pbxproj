@@ -17,6 +17,8 @@
 		4B49F76A23D8FBDA00ADF203 /* DocumentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B49F76923D8FBDA00ADF203 /* DocumentsUITests.m */; };
 		4B49F77923D8FC2700ADF203 /* DocumentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B49F77823D8FC2700ADF203 /* DocumentTableViewController.m */; };
 		4B49F77D23D8FFF100ADF203 /* DocumentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B49F77C23D8FFF100ADF203 /* DocumentDetailViewController.m */; };
+		4B4D88F823D90624003FF0A4 /* NSString+NMKWordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D88F723D90624003FF0A4 /* NSString+NMKWordCount.m */; };
+		4B4D88FB23D90873003FF0A4 /* NMKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D88FA23D90873003FF0A4 /* NMKDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		4B49F77823D8FC2700ADF203 /* DocumentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentTableViewController.m; sourceTree = "<group>"; };
 		4B49F77B23D8FFF100ADF203 /* DocumentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentDetailViewController.h; sourceTree = "<group>"; };
 		4B49F77C23D8FFF100ADF203 /* DocumentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentDetailViewController.m; sourceTree = "<group>"; };
+		4B4D88F623D90624003FF0A4 /* NSString+NMKWordCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NMKWordCount.h"; sourceTree = "<group>"; };
+		4B4D88F723D90624003FF0A4 /* NSString+NMKWordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NMKWordCount.m"; sourceTree = "<group>"; };
+		4B4D88F923D90873003FF0A4 /* NMKDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMKDocument.h; sourceTree = "<group>"; };
+		4B4D88FA23D90873003FF0A4 /* NMKDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMKDocument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 		4B49F74123D8FBD900ADF203 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				4B4D88F523D90618003FF0A4 /* Model */,
+				4B4D88F423D9043C003FF0A4 /* Model Controller */,
 				4B49F77E23D8FFFC00ADF203 /* View Controller */,
 				4B49F77F23D9000600ADF203 /* Table View Controller */,
 				4B49F77A23D8FC4600ADF203 /* Resources */,
@@ -164,6 +172,24 @@
 				4B49F77823D8FC2700ADF203 /* DocumentTableViewController.m */,
 			);
 			path = "Table View Controller";
+			sourceTree = "<group>";
+		};
+		4B4D88F423D9043C003FF0A4 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		4B4D88F523D90618003FF0A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B4D88F623D90624003FF0A4 /* NSString+NMKWordCount.h */,
+				4B4D88F723D90624003FF0A4 /* NSString+NMKWordCount.m */,
+				4B4D88F923D90873003FF0A4 /* NMKDocument.h */,
+				4B4D88FA23D90873003FF0A4 /* NMKDocument.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +254,7 @@
 		4B49F73723D8FBD900ADF203 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NMK;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Nar Kumar";
 				TargetAttributes = {
@@ -297,9 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B49F74423D8FBD900ADF203 /* AppDelegate.m in Sources */,
+				4B4D88FB23D90873003FF0A4 /* NMKDocument.m in Sources */,
 				4B49F77D23D8FFF100ADF203 /* DocumentDetailViewController.m in Sources */,
 				4B49F75523D8FBDA00ADF203 /* main.m in Sources */,
 				4B49F77923D8FC2700ADF203 /* DocumentTableViewController.m in Sources */,
+				4B4D88F823D90624003FF0A4 /* NSString+NMKWordCount.m in Sources */,
 				4B49F74723D8FBD900ADF203 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

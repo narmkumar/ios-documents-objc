@@ -39,6 +39,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Mgg-Fc-UQQ" kind="show" identifier="DetailSegue" id="fVk-bc-BUO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -126,4 +129,7 @@
             <point key="canvasLocation" x="-11.594202898550726" y="24.776785714285712"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="fVk-bc-BUO"/>
+    </inferredMetricsTieBreakers>
 </document>
