@@ -10,7 +10,7 @@
 
 @interface NSString (NMKWordCount)
 
-- (int *)wordCount;
+- (int)wordCount;
 
 @end
 

@@ -24,7 +24,7 @@
     return self;
 }
 
-- (int *)wordCount {
+- (int)wordCount {
     return [self.text wordCount];
 }
 

@@ -19,6 +19,7 @@
 		4B49F77D23D8FFF100ADF203 /* DocumentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B49F77C23D8FFF100ADF203 /* DocumentDetailViewController.m */; };
 		4B4D88F823D90624003FF0A4 /* NSString+NMKWordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D88F723D90624003FF0A4 /* NSString+NMKWordCount.m */; };
 		4B4D88FB23D90873003FF0A4 /* NMKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D88FA23D90873003FF0A4 /* NMKDocument.m */; };
+		4B4D88FE23D91CB3003FF0A4 /* NMKDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D88FD23D91CB3003FF0A4 /* NMKDocumentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		4B4D88F723D90624003FF0A4 /* NSString+NMKWordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NMKWordCount.m"; sourceTree = "<group>"; };
 		4B4D88F923D90873003FF0A4 /* NMKDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMKDocument.h; sourceTree = "<group>"; };
 		4B4D88FA23D90873003FF0A4 /* NMKDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMKDocument.m; sourceTree = "<group>"; };
+		4B4D88FC23D91CB3003FF0A4 /* NMKDocumentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMKDocumentController.h; sourceTree = "<group>"; };
+		4B4D88FD23D91CB3003FF0A4 /* NMKDocumentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMKDocumentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 		4B4D88F423D9043C003FF0A4 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4B4D88FC23D91CB3003FF0A4 /* NMKDocumentController.h */,
+				4B4D88FD23D91CB3003FF0A4 /* NMKDocumentController.m */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 				4B49F74423D8FBD900ADF203 /* AppDelegate.m in Sources */,
 				4B4D88FB23D90873003FF0A4 /* NMKDocument.m in Sources */,
 				4B49F77D23D8FFF100ADF203 /* DocumentDetailViewController.m in Sources */,
+				4B4D88FE23D91CB3003FF0A4 /* NMKDocumentController.m in Sources */,
 				4B49F75523D8FBDA00ADF203 /* main.m in Sources */,
 				4B49F77923D8FC2700ADF203 /* DocumentTableViewController.m in Sources */,
 				4B4D88F823D90624003FF0A4 /* NSString+NMKWordCount.m in Sources */,

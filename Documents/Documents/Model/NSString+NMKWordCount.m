@@ -10,9 +10,9 @@
 
 @implementation NSString (NMKWordCount)
     
-- (int *)wordCount {
+- (int)wordCount {
 
-    return (int *)[[self componentsSeparatedByString:@" "] count];
+    return (int)[[self componentsSeparatedByString:@" "] count];
     
 }
 

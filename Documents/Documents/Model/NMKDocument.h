@@ -12,7 +12,7 @@
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *text;
-@property (nonatomic) int *wordCount;
+@property (nonatomic) int wordCount;
 
 - (instancetype)initWithTitle:(NSString *)title text:(NSString *)text;
 
